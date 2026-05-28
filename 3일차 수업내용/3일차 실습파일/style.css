@@ -1,0 +1,22 @@
+.oc1 {
+    height: 100vh; 
+    <!--하이트는 높이-->
+    background-color: antiquewhite;
+    <!--백그라운드 컬러는 색상-->
+}
+.ocbox {
+   width: 100px; height: 100px;
+   background-color: black;
+}
+.oc2 {
+height: 100vh;
+background-color: aqua;
+}
+.oc3 {
+height: 100vh;
+background-color: #ff0a0a;
+}
+.oc4 {
+height: 100vh;
+background-color:#5900ff ;
+}

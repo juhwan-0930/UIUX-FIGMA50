@@ -1,0 +1,27 @@
+.sct01 {
+    height: 100vh;
+    background-color: rgb(156, 156, 156);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.sctbox {
+    width: 250px; height: 600px;
+    background-color: rgb(255, 0, 0);
+}
+.sct02 {
+    height: 100vh;
+    background-color: rgb(157, 255, 0);
+}.sct03 {
+    height: 100vh;
+    background-color: rgb(0, 183, 255);
+}.sct04 {
+    height: 100vh;
+    background-color: rgb(212, 0, 255);
+}.sct05 {
+  height: 100vh;
+    background-color: rgb(255, 0, 55);
+}.sct06 {
+    height: 100vh;
+    background-color: zzzzzz, 48, 255);
+}
