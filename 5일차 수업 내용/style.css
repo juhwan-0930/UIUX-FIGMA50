@@ -1,10 +1,17 @@
 header {
-    height: 400vh;
+    height: 86px;
     background-color: rgb(127, 131, 134);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 nav {
     background-color: azure;
+}
+.nac-box01 {
+    width: 92px;height: 12px;
+    border-radius: 2px;
+    background-color: rgb(86, 169, 241);
 }
 h1 {
     background-color: rgb(255, 253, 253);
