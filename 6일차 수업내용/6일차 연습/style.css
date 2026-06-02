@@ -1,0 +1,27 @@
+header {
+    border: 1px solid #e3e3e3;
+    background-color: #000;
+}
+main {
+    /* background크기 지정 height는 높이 지정  padding는 메인을 감쌀 겉의 여백을말함*/
+    background: 2px dashed #fff;
+    height: 2526px;
+    padding: 64px;
+}
+sct-01,sct-02,sct-03,sct-04 {
+    /* 상품리스트의 크기와 색상을 지정한  background-color는 색상  border-bottom은 선을 만들어준 것*/
+    background-color: #797979;
+    border-bottom: 1px solid #000
+}
+.sct-01 {
+    /* gap은 오른쪽 왼쪽이라고 쓰여있는 두개 사이의 간격을 넣는 것임 */
+    display: flex; gap: 20px;
+}
+.sct01-left {
+    /*width옆으로 크기   height는 높이 flex-grow은 1만 넣어도 다 채워줌*/
+    width: 1100px; height: 610px;
+    flex-grow: 1;
+}
+footer {
+    background: 2px solid #fff;
+}
