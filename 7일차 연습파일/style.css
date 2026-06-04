@@ -1,0 +1,32 @@
+header {
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+}
+main {
+    background:2px dashed #FFF;
+    height: 2526px;
+    /* 패딩은 겉에 감싸고 있는 것이라고 보면 되고  */
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.sct-01, .sct-02, .sct-03, .sct-04 {
+    background-color: rgb(201, 201, 201);
+    border-bottom: 1px solid #000;
+}
+.sct-01 {
+    display: flex; gap: 20px;
+}
+.sct01-left {
+    width: 1100px; height: 610px;
+    background-color: yellow;
+}
+.sct01-right {
+    background-color: green;
+    flex-grow: 1;
+}
+footer {
+    background:2px solid #FFF;
+    height: 68px;
+}
