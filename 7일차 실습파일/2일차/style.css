@@ -1,0 +1,30 @@
+.div {
+    /* 상단바 */
+    border-bottom: 1px solid #FFE8FF;
+    width: 1920;
+    height: 86px;
+    background-color: #AD8EDB;
+}
+.div-box {
+    /* 전체 메뉴칸? */
+    padding-top: 30px;
+    padding-left: 64px;
+    padding-right: 64;
+    width: 1792px;
+    height: 637px;
+    background-color:#FFE8FF;
+    gap: 20px;
+    display: flex;
+}
+.div-box01 {
+    /*옷*/
+    width: 822px;
+    height: 342px;
+    background-color: #D1B2FF;
+}
+.div-box02 {
+    /* 하의 */
+    width: 822px;
+    height: 342px;
+    background-color: #E3C4FF;
+}

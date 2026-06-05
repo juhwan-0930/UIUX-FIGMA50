@@ -11,13 +11,13 @@ nav {
 .nac-box01 {
     width: 92px;height: 12px;
     border-radius: 2px;
-    background-color: rgb(86, 169, 241);
+    background-color: rgb(167, 204, 236);
 }
 h1 {
     background-color: rgb(255, 253, 253);
 }
 .use-box {
-    background-color: rgb(233, 224, 224);
+    background-color: rgb(129, 129, 129);
 }
 main {
     height: 400vh;

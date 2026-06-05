@@ -3,7 +3,7 @@ header {
     background: #FFF;
 }
 main {
-    background:2px dashed #FFF;
+    background:2px dashed #ffffff;
     height: 2526px;
     /* 패딩은 겉에 감싸고 있는 것이라고 보면 되고  */
     padding-left: 64px;
@@ -20,17 +20,17 @@ main {
 }
 .sct01-left {
     width: 1100px; height: 610px;
-    background-color: yellow;
+    background-color: rgb(216, 233, 255);
 }
 .sct01-right {
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(153, 197, 255);
     flex-grow: 1;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: column; 
+    gap: 20px #0039a3;
 }
 .sct01-rbox01 {
-    background-color: #ada4ff;
+    background-color: #4567ff;
     flex-grow: 1;
 }
 .sct01-rbox02 {
