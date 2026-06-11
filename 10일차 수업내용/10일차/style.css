@@ -19,12 +19,12 @@
 .main_sl_title-right {
     width: 960px; height: 700px;
     align-items: flex-start;
-    background-color: rgb(108, 255, 255);
+    background-color: rgb(255, 185, 197);
 }
 .main_sl_title-left {
     width: 960px; height: 700px;
     align-items: flex-start;
-    background-color: rgb(165, 255, 255);
+    background-color: rgb(255, 154, 216);
 }
 .main_sl-title01 {
     display: flex;
@@ -42,14 +42,13 @@
 }
 .xnas-product {
     display: flex;
-    width: 1800px;
     height: 487.13px;
     padding: 10px;
     align-items: center;
     gap: 30px;
     flex-shrink: 0;
 }
-.T-box-1,.c-box-1,.a-box-1 {
+.T-box-1,.c-box-1,.a-box-1,.b-box-1,.e-box-1,.f-box-1 {
     display: flex;
     width: 295.83px;
     height: 402.3px;
@@ -58,6 +57,29 @@
     align-items: flex-start;
     gap: 10px;
     flex-shrink: 0;
-    background-color: aquamarine;
-
 }
+.T-box-1 {
+background-color: hsl(270, 100%, 95%)
+}
+.c-box-1 {
+    background-color: hsl(272, 100%, 90%)
+}
+.a-box-1 {
+    background-color: hsl(271, 100%, 85%)
+}
+.b-box-1 {
+    background-color: hsl(271, 100%, 80%)
+}
+.e-box-1 {
+    background-color: hsl(271, 100%, 75%)
+}
+.f-box-1 {
+    background-color: hsl(271, 100%, 70%)
+}
+.product-title {
+    width: 295.83px;          /* 💡 연두색 상자(부모)랑 똑같은 너비를 주거나, 100%를 주세요! */
+    white-space: nowrap;      /* 줄바꿈 절대 금지 */
+    overflow: hidden;         /* 상자 밖으로 튀어나가면 숨기기 */
+    text-overflow: ellipsis;  /* 숨겨진 부분은 '...'으로 표시하기 */
+}
+  
