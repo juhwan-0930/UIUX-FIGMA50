@@ -1,3 +1,21 @@
 body {
   margin: 0; padding: 0;
 }
+header {
+  border: 1px solid red;
+}
+main {
+  border: 1px solid red;
+}
+.Bestsellers-section {
+  border: 1px solid orange;
+}
+.ui-nav {
+  border: 1px solid green;
+}
+.bestsellers-title {
+
+}
+footer {
+  border: 1px solid red;
+}
