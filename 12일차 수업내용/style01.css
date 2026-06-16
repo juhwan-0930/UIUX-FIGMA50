@@ -1,0 +1,32 @@
+.bast-pro-btn {
+  border: 1px solid #E1DED9;
+  background: #FFF;
+  /* flex-grow 임의값 410px */
+  width: 410px;
+  padding-top: 12px; padding-bottom: 12px;
+  color: #212529;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.3125rem; /* 150% */
+  letter-spacing: 0.00375rem;
+
+  /* text-transform: capitalize;
+  font-family: Raleway;
+  font-style: normal; */
+
+  transition: 0.7s;
+}
+.bast-pro-btn:hover {
+  background-color: #212529;
+  color: #E1DED9;
+}
+
+/*
+<div>글자</div>
+div{
+  width: 50px;
+  padding-top: 12px; padding-bottom: 12px;
+  background-color: gray;
+  text-align: center;
+} */
