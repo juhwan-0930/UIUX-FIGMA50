@@ -1,0 +1,37 @@
+.bast-pro-btn {
+  border: 1px solid #E1DED9;
+  background: #FFF;
+  /* flex-grow 임의값 410px */
+  width: 410px;
+  padding-top: 12px; padding-bottom: 12px;
+  color: #212529;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.3125rem; /* 150% */
+  letter-spacing: 0.00375rem;
+
+  /* text-transform: capitalize;
+  font-family: Raleway;
+  font-style: normal; */
+
+  transition: 0.7s;
+}
+.bast-pro-btn:hover {
+  background-color: #212529;
+  color: #E1DED9;
+}
+.view-more {
+  color: #333;
+  /* font-family: Raleway; 사용안함*/
+  font-size: 1rem;
+  /* font-style: normal;사용안함 */
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+  transition: 0.5s;
+}
+.view-more:hover {
+  font-size: 20px;
+  /* font-weight->px찍으면 안됌 */
+  font-weight: 400;
+}
