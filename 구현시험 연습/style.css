@@ -1,1 +1,94 @@
+header {
+  border: 1px solid red;
+}
+main {
+  border: 1px solid red;
+}
+.bestsellers-section {
+  border: 5px solid orange;
+  /* width: 1920px; 가로 스크롤 활성화 -> x */
+  padding: 124px 80px;
+}
+.ul-nav {
+  border: 1px solid green;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-title {
+  border: 1px solid blue;
+}
+.view-all {
+  border: 1px solid blue;
+}
+.amp-swiper {
+  border: 1px solid green;
+  display: flex;
+}
+.best-product-list {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.best-product-list01 {border: 3px solid rgb(255, 216, 216);}
+.best-product-list02 {border: 3px solid rgb(255, 195, 195);}
+.best-product-list03 {border: 3px solid rgb(255, 142, 142);}
+.best-product-list04 {border: 3px solid rgb(255, 70, 70);}
 
+.best-img-box {
+  border: 1px solid orange;
+  height: 410px;
+  background-color: #e2e2e2e2;
+}
+.best-discount-title {
+  border: 1px solid orange;
+  padding-top: 40px; padding-bottom: 42px;
+}
+.best-discount-subhead {
+  border: 1px solid orange;
+  padding-bottom: 40px;
+}
+.best-price-capacity {
+  border: 1px solid orange;
+  padding-top: 14px; padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.best-Price {
+  border: 1px solid orange;
+}
+.best-capacity {
+  border: 1px solid orange;
+}
+.best-capacity-30ml {
+  border: 1px solid orange;
+}
+.best-capacity-60ml {
+  border: 1px solid orange;
+}
+.best-pro-btn {
+  border: 1px solid #E1DED9;
+  background: #FFF;
+  /* flex-grow 임의값 410px을 바꿔줘야댐 */
+  flex-grow: 1;
+  padding-top: 12px; padding-bottom: 12px;
+  color: #212529;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.3125rem; /* 150% */
+  letter-spacing: 0.00375rem;
+  text-transform: capitalize;
+  font-family: Raleway;
+  font-style: normal; */
+  transition: 0.7s;
+}
+.best-pro-btn:hover {
+  background-color: #212529;
+  color: #E1DED9;
+}
+
+footer {
+  border: 1px solid red;
+}
